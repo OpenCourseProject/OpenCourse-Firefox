@@ -1,0 +1,16 @@
+{
+  "title": "Open Course",
+  "name": "opencourse",
+  "version": "1.0",
+  "description": "Open Course Project browser plugin",
+  "main": "index.js",
+  "author": "Adam Fendley",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "permissions": {
+    "cross-domain-content": ["https://opencourseproject.com/"]
+  },
+  "license": "Apache"
+}
