@@ -22,7 +22,6 @@ user_request.onload = function() {
   var valid = username_re.test(this.responseText)
   if (valid) {
     api_username = this.responseText;
-    console.log(api_username)
     // Get the API key
     url = 'https://opencourseproject.com/api/key/'
     var key_request = new XMLHttpRequest();
@@ -32,7 +31,6 @@ user_request.onload = function() {
       var valid = key_re.test(this.responseText)
       if (valid) {
         api_key = this.responseText;
-        console.log(api_key)
         // Start the API interaction
         begin();
       } else {

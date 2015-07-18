@@ -6,7 +6,9 @@ This is the browser plugin for the Open Course Project website (https://opencour
 Installation
 -------
 
-Compile with ```jpm xpi``` or [downloaded the latest version](https://opencourseproject.com/static/assets/dist/opencourse-1.0.xpi).
+Find the plugin on the [Mozilla Addons store](https://addons.mozilla.org/en-US/firefox/addon/open-course/) and install!
+
+Alternatively, you may compile  yourself with ```jpm xpi```.
 
 License
 -------
